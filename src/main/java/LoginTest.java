@@ -12,7 +12,6 @@ public class LoginTest {
         driver.get("https://www.saucedemo.com/");
 
         driver.manage().window().maximize();
-
         Thread.sleep(2000);
 
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
